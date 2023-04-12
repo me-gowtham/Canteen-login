@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>FAGITO</title>
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 30px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bar{
+  width:100%;
+  padding:5%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.searchbar{
+  width:80%;
+  height: 35px;
+  max-width:500px;
+  display: flex;
+  align-items:center;
+  border-radius:60px;
+  padding: 10px 20px;
+}
+.searchbar input{
+  background: transparent;
+  flex: 1;
+  border:0;
+  outline:none;
+  padding:24px 20px;
+  font-size:20px;
+}
+.bar button img{
+  width:20px;
+}
+.bar button{
+  border: 0;
+  border-radius: 40%;
+  width: 40px;
+  height: 34px;
+  background: #FFCA33;
+  cursor: pointer;
+}
+</style>
+</head>
+<body background="C:\Users\lucig\Downloads\Untitled-design-3.jpg" style="background-repeat:no-repeat;background-size:100% 100%">
+<p style="text-align:center;"><img src="C:\Users\lucig\Downloads\LOGO.png" alt="FAGITO" height="200" width="650"><br><br>
+<div class="bar">
+<input class="searchbar" type="text" id="serchbox" placeholder="What are you Looking For?">
+<button type="submit"><img src="C:\Users\lucig\Downloads\icon.png" /></button>
+</div></p>
+<div class="row">
+  <div class="column left1">
+  <h4 style="color:White">MOST ORDERED DISHES:</h4>
+  <UL TYPE="circle">
+  <li><h5><a href=""style="color:White">BIRYANI</a></h5></li>
+  <li><h5><a href=""style="color:White">PAROTTA</a></h5></li>
+  </div>
+  <div class="column left2"><br><br>
+  <UL TYPE="circle">
+    <li><h5><a href=""style="color:White">FRESH JUICE</a></h5></li>
+    <li><h5><a href=""style="color:White">FRIED RICES</a></h5></li>
+  </div>
+  <div class="column middle"><br><br>
+  <UL TYPE="circle">
+  </div>
+  <div class="column right1"><br><br><br><br>
+  <input type="image" src="C:\Users\lucig\Downloads\Screenshot 2022-10-07 210142.png" style="border: double;" height="60" width="200" onclick="parent.open('')">
+  </div>
+  <div class="column right2"><br><br><br><br>
+  <input type="image" src="C:\Users\lucig\Downloads\Screenshot 2022-10-07 210247.png" style="border: double;" height="60" width="200" onclick="parent.open('')">
+  </div>
+  </div>
+</body>
+</html>

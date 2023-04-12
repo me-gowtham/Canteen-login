@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="OTP.css" />
+</head>
+<body>
+    <form class="card"><br><br>
+        <input type="tel" id="uid" placeholder="Enter your number" size="10" maxlength="10">
+        <e></e>
+        <h6>We have sent an OTP to your Mobile number Enter OTP:</h6>
+        <p><input type="text" id="O1" maxlength="1" onkeyup="fn(this,'O2','')"/>  
+        <input type="text" id="O2" maxlength="1" onkeyup="fn(this,'O3','O1')"/>
+        <input type="text" id="O3" maxlength="1" onkeyup="fn(this,'O4','O2')"/>
+        <input type="text" id="O4" maxlength="1" onkeyup="fn(this,'','O3')"/></p>
+        <button id="submit">Verify OTP</button>
+        <b style="font-size: 12px;"><a style="color: aqua;" href="">Resend OTP</a></b><br>
+        <span class="top"></span>
+        <span class="right"></span>
+        <span class="bottom"></span>
+        <span class="left"></span>
+        </form>
+    <script src="OTP.js"></script>
+</body>
+</html>

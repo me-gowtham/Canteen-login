@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>FAGITO</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<style>
+.bar{
+  width:100%;
+  padding:5%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.searchbar{
+  width:80%;
+  height: 35px;
+  max-width:500px;
+  display: flex;
+  align-items:center;
+  border-radius:60px;
+  padding: 10px 20px;
+}
+.searchbar input{
+  background: transparent;
+  flex: 1;
+  border:0;
+  outline:none;
+  padding:24px 20px;
+  font-size:20px;
+}
+.bar button img{
+  width:20px;
+}
+.bar button{
+  border: 0;
+  border-radius: 40%;
+  width: 40px;
+  height: 34px;
+  background: #FFCA33;
+  cursor: pointer;
+}
+</style>
+</head>
+<body background="C:\Users\lucig\Downloads\Untitled-design-3.jpg" style="background-repeat:no-repeat;background-size:100% 100%">
+<p style="text-align:center;"><img src="C:\Users\lucig\Downloads\LOGO.png" alt="FAGITO" height="200" width="650"><br><br>
+<button type="button" class="btn btn-warning" onclick="login()">LOG-IN</button>
+<button type="button" class="btn btn-warning" onclick="signin()">SIGN-UP</button><br><br>
+<div class="bar">
+<input class="searchbar" type="text" id="serchbox" placeholder="What are you Looking For?">
+<button type="submit"><img src="C:\Users\lucig\Downloads\icon.png" /></button>
+</div>
+</p>
+<p style="text-align:Left;">
+<h6 style="color:White">MOST ORDERED DISHES:</h6>
+<UL TYPE="circle">
+<li><a style="color:White; font-size: 15px;">BIRYANI</a></li>
+<li><a style="color:White; font-size: 15px;">PAROTTA</a></li>
+<li><a style="color:White; font-size: 15px;">FRESH JUICE</a></li>
+<li><a style="color:White; font-size: 15px;">CHICKEN RICE</a></li>
+<script>
+  function login(){
+    window.location.href="FAGITO(2).html";
+  }
+  function signin(){
+    window.location.href="FAGITO(3).html";
+  }
+</script>
+</body>
+</html>
